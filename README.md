@@ -170,7 +170,7 @@ The xlsx sheets here reproduce the data as flat files; they are dependent on one
      
      Column R: Column 1 URL for record in AAS Catalog 
      
-     Additional columns refer to AAS Catalog data 
+     _Additional columns refer to AAS Catalog data 
      
      
      
