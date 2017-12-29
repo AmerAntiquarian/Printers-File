@@ -1,0 +1,2 @@
+# Printers-File
+This data details the work of 6,145 printers, publishers, editors, binders, papermakers, and others involved in the printing trade through 1820
