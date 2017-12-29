@@ -1,2 +1,3 @@
 # Printers-File
-This data details the work of 6,145 printers, publishers, editors, binders, papermakers, and others involved in the printing trade in what is now the United States through 1820.
+This data details the work of 6,145 printers, publishers, editors, binders, papermakers, and others involved in the printing trade in what is now the United States through 1820. we then partnered with Zepheira to transform the data into BIBFRAME, the library standard for Linked Open Data. The Early Printing Trade vocabulary builds on the BIBFRAME Lite vocabulary to support the description of people involved in all parts of the printing trades in the hand press and early steam press periods. The Printers’ File data now exists in a backend framework on Library.Link Network.  Please find the data there, but know that it is not yet easy to search or extract. This is why we have posted it on GitHub. 
+
