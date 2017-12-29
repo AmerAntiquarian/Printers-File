@@ -4,18 +4,18 @@ Please find the data there, but know that it is not yet easy to search or extrac
 
 The xlsx sheets here reproduce the data as flat files; they are dependent on one another to be understood. The strucure of the data as it exists in these spreadsheets is as follows:
 1. Printers.xlsx
-      Column A: Printer ID as assigned during data entry
-      Column B: Last_Name note that the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
-      Column C: First_Name note that the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
-      Column D: Birth_Date 
-      Column E: Death_Date
-      Column F: Birth_Location (see 3. Locations.xlsx)
-      Column G: Death_Location (see 3. Locations.xlsx)
-      Column H: Gender 
-      Column I: Race (see 4. Race.xlsx) 
-      Column J: Notes unstructured data that provides additional information on a person's vital dates or place of birth
-      Column K: Notes unstructured data related to conflicting information that was outside of the purview of data entry to resolve
-      Column L: First_JPEG refers to the scanned index card from which data was entered. These cards can be seen by plugging that 6 digit # into this URL http://www.americanantiquarian.org/pfcards/XXXXX.jpeg Please note that if the number does not have 6 digits, then add "0" before the number provided.
+     -Column A: Printer ID as assigned during data entry
+     *Column B: Last_Name note that the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
+     *Column C: First_Name note that the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
+     *Column D: Birth_Date 
+     *Column E: Death_Date
+     *Column F: Birth_Location (see 3. Locations.xlsx)
+     *Column G: Death_Location (see 3. Locations.xlsx)
+     *Column H: Gender 
+     *Column I: Race (see 4. Race.xlsx) 
+     *Column J: Notes unstructured data that provides additional information on a person's vital dates or place of birth
+     *Column K: Notes unstructured data related to conflicting information that was outside of the purview of data entry to resolve
+     *Column L: First_JPEG refers to the scanned index card from which data was entered. These cards can be seen by plugging that 6 digit # into this URL http://www.americanantiquarian.org/pfcards/XXXXX.jpeg Please note that if the number does not have 6 digits, then add "0" before the number provided.
       Column M: Last_JPEG refers to the last of the scanned index cards w information on this printer. Printers can have anywhere from 1 to 10 cards.
       Column N: AUTH_ID refers to an authorization number internal to AAS's OPAC.
       Column O: LC_URI Library of Congress Name Authority File included whenever name verified 
