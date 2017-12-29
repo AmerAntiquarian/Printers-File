@@ -1,5 +1,6 @@
 # Printers-File
-This data details the work of 6,145 printers, publishers, editors, binders, papermakers, and others involved in the printing trade in what is now the United States through 1820. we then partnered with Zepheira to transform the data into BIBFRAME, the library standard for Linked Open Data. The Early Printing Trade vocabulary builds on the BIBFRAME Lite vocabulary to support the description of people involved in all parts of the printing trades in the hand press and early steam press periods. The Printers’ File data now exists in a backend framework on Library.Link Network: http://link.americanantiquarian.org/
+This data details the work of 6,145 printers, publishers, editors, binders, papermakers, and others involved in the printing trade in what is now the United States through 1820. we then partnered with Zepheira to transform the data into BIBFRAME, the library standard for Linked Open Data. The Early Printing Trade vocabulary builds on the BIBFRAME Lite vocabulary to support the description of people involved in all parts of the printing trades in the hand press and early steam press periods. The Printers’ File data now exists in a backend framework on [Library.Link Network](http://link.americanantiquarian.org)
+This data can also be extracted from a .tar file in JSON. Please find that in [AAS's dropbox](https://www.dropbox.com/sh/ybmljj5ghe1spfy/AAD3G6sUXkXdj00t0AhxjiYea?dl=0). 
 Please find the data there, but know that it is not yet easy to search or extract. This is why we have posted it on GitHub. 
 
 The xlsx sheets here reproduce the data as flat files; they are dependent on one another to be understood. The strucure of the data as it exists in these spreadsheets is as follows:
@@ -7,9 +8,9 @@ The xlsx sheets here reproduce the data as flat files; they are dependent on one
 
      Column A: Printer ID as assigned during data entry
      
-     Column B: Last_Name note that the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
+     Column B: Last_Name  the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
      
-     Column C: First_Name note that the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
+     Column C: First_Name the authorized version trumped the version of the name on the card (see 2. Name Variations.xlsx)
      
      Column D: Birth_Date
      
@@ -42,29 +43,144 @@ The xlsx sheets here reproduce the data as flat files; they are dependent on one
       Column A: Name_Var_ID as assigned during data entry
       
       Column B: Printer_ID taken from 1. Printers.xlsx Column A
+      
       Column C: Last_Name variation as noted on index card or as differs from Library of Congress Name Authority File 
+      
       Column D: First_Name variation as noted on index card or as differs from Library of Congress Name Authority File 
       
 3. Locations.xlsx
+
       Column A: Loc_ID as assigned during data entry 
+      
       Column B: City 
-      Column C: State 
+      
+      Column C: State
+      
       Column D: Country
+      
       Column E: Authority link: location in GeoNames geographical database
       
 4. Race.xlsx
+
       Column A: Race_ID as assigned during data entry
+      
       Column B: Race
       
 5. Employment.xlsx
+
       Column A: Employ_ID as assigned during data entry
-      Column B: Printer_ID taken from 1. Printers.xlsx Column A
-      Column C: Trade_ID taken from
-      Column D: Start_Year
-      Column E: End_Year
-      Column F: Loc_ID taken from 3. Locations.xlsx Column A
-      Column G: Firm_ID
-      Column H: Notes unstructed data that provides additional information on employment
       
+      Column B: Printer_ID taken from 1. Printers.xlsx Column A
+      
+      Column C: Trade_ID taken from 7. Trade.xlsx
+      
+      Column D: Start_Year
+      
+      Column E: End_Year
+      
+      Column F: Loc_ID taken from 3. Locations.xlsx Column A
+      
+      Column G: Firm_ID taken from 6. Firms.xlsx
+      
+      Column H: Notes unstructed data that provides additional information on employment
+   
+6.  Firms.xlsx
+
+     Column A: Firm_ID as assigned during data entry
+     
+     Column B: Firm as found on index card 
+     
+7.  Trade.xlsx
+     
+    Column A: Trade_ID as assigned during data entry
+    
+    Column B: Trade as found on index card
+    
+8.  Rel_Category.xlsx
+
+     Column A: Category_ID as assigned during data entry
+     
+     Column B: Category refers to a life event as described on the index card. This is the "predicate" in triplet structure
+     
+     Column C: Vocab is AAS's 
+     
+     Column D: Category_URL Bibframe extension with AAS vocabulary
+ 
+ 9. Rel_Entity_Class.xlsx
+  
+    Column A: Entity_Class_ID assigned during data entry
+    
+    Column B: Entity_Class for objects in triplet structure of data entry 
+ 
+10. Relationships.xlsx
+
+     Column A: Relation_D as assigned in data entry 
+     
+     Column B: Printer_ID as assingned in 1. Printers Column A
+     
+     Column C: Entity_Class_ID as assigned in 9. Rel_Entity_Class.xlsx
+
+     Column D: Rel_Entity name of object in triplet structure
+     
+     Column E: Category_ID as assined in 8. Rel_Category.xlsx
+     
+     Column F: Loc_ID as assigned in 3. Locations.xlsx
+     
+     Column G: Start_Year 
+     
+     Column H: End_Year 
+     
+     Column I: Notes unstructured data that provides additional information for relationships
+   
+11. Source Cards.xsl 
+
+     Column A: TempRowID as assigned in data entry
+     
+     Column B: Printer_ID as assingned in 1. Printers Column A
+
+     Column C: Last_Name of Printer
+     
+     Column D: First_Name of Printer
+     
+     Column E: Birth_Date of Printer
+     
+     Column F: Author/Editor Last name 
+    
+     Column G: Author/Editor First name 
+     
+     Column H: Author/Editor Last name 2
+     
+     Column I: Author/Editor First name 2
+     
+     Column J: Title of Book
+     
+     Column K: Place of Publication as assigned in 3. Locations
+     
+     Column L: Unknown No. might be volume and series numbers, but they are unidentified on the cards
+     
+     Column M: Year of Publication
+     
+     Column N: Volume
+     
+     Column O: Issue #
+     
+     Column P: Page
+     
+     Column Q: BIB IDs record number in AAS Catalog
+     
+     Column R: Column 1 URL for record in AAS Catalog 
+     
+     Additional columns refer to AAS Catalog data 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+
 
 
