@@ -1,5 +1,5 @@
 # Printers-File
-This data details the work of 6,145 printers, publishers, editors, binders, papermakers, and others involved in the printing trade in what is now the United States through 1820. we then partnered with Zepheira to transform the data into BIBFRAME, the library standard for Linked Open Data. The Early Printing Trade vocabulary builds on the BIBFRAME Lite vocabulary to support the description of people involved in all parts of the printing trades in the hand press and early steam press periods. The Printers’ File data now exists in a backend framework on [Library.Link Network](http://link.americanantiquarian.org)
+This data details the work and lives of 6,145 printers, publishers, editors, binders, papermakers, and others involved in the printing trade in what is now the United States through 1820. we then partnered with Zepheira to transform the data into BIBFRAME, the library standard for Linked Open Data. The Early Printing Trade vocabulary builds on the BIBFRAME Lite vocabulary to support the description of people involved in all parts of the printing trades in the hand press and early steam press periods. The Printers’ File data now exists in a backend framework on [Library.Link Network](http://link.americanantiquarian.org)
 This data can also be extracted from a .tar file in JSON. Please find that in [AAS's dropbox](https://www.dropbox.com/sh/ybmljj5ghe1spfy/AAD3G6sUXkXdj00t0AhxjiYea?dl=0). 
 Please find the data there, but know that it is not yet easy to search or extract. This is why we have posted it on GitHub. 
 
@@ -170,7 +170,7 @@ The xlsx sheets here reproduce the data as flat files; they are dependent on one
      
      Column R: Column 1 URL for record in AAS Catalog 
      
-     _Additional columns refer to AAS Catalog data 
+     _Additional columns refer to AAS Catalog data_
      
      
      
